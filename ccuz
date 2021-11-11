@@ -1,0 +1,20 @@
+{
+ "@context": "https://www.w3.org/ns/did/v1",
+ "id": "did:github:ccuz/did/ccuz",
+ "authentication": [{
+ "id": "did:github:ccuz/did/ccuz#keys-1",
+ "type": "Ed25519VerificationKey2018",
+ "controller": "did:github:123456789abcdefghi",
+ "publicKeyBase58" : "H3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV"
+ }],
+ "service": [{
+ "id":"did:github:ccuz/did/ccuzi#didcommagent",
+ "type": "VerifiableCredentialService",
+ "serviceEndpoint": "https://example.com/vc/"
+ },
+ {
+ "id":"did:github:ccuz/did/ccuzi#phone",
+ "type": "Phone",
+ "serviceEndpoint": "00417826391638"
+ }]
+}
